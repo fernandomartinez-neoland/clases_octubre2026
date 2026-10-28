@@ -43,6 +43,8 @@ export class hijo extends papa{
 }
 
 export class nieto extends hijo{
+    // el nieto puede tener el mismo metodo del abuelo (papa) y puede cambiarlo si lo necesita
+    // si el hijo o el nieto no tienen el mismo metodo que el papa, al ser una extension entonces pueden llamar al metodo de papa y dira lo mismo que el metodo de papa
     casa(){
         return "vendi la casa"
     }
